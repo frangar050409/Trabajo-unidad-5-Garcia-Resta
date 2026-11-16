@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo gallery Flared Jeans</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1 class="titulo">
+      <span class="titulo-chico">Photo gallery</span>
+      <span class="titulo-grande">Flared Jeans</span>
+    </h1>
+  </header>
+
+  <main>
+    <div class="galeria">
+      <button class="item" type="button"><img src="img/frente.webp" alt="Jean flared, vista de frente"></button>
+      <button class="item" type="button"><img src="img/espalda.webp" alt="Jean flared, vista de espalda"></button>
+      <button class="item" type="button"><img src="img/detalle-cintura.webp" alt="Detalle de la cintura con botón y elástico ajustable"></button>
+      <button class="item" type="button"><img src="img/detalle-bolsillo.webp" alt="Detalle del bolsillo trasero y la etiqueta"></button>
+    </div>
+  </main>
+
+  <dialog class="lightbox">
+    <button class="cerrar" type="button" aria-label="Cerrar">&times;</button>
+    <img src="" alt="">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
